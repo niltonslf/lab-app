@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "yarn prettier --write",
+    "prettier": "prettier --write \"src/**/*.+(ts|tsx|js|jsx|json|yml|yaml|md|mdx)\" --config ./.prettierrc.js",
     "prepare": "husky install"
   },
   "dependencies": {
